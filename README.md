@@ -36,8 +36,12 @@ FTP clients like FileZilla can change permissions on the web server.
 
 Many hosting companies have control panels to do this (see links below).
 
-https://www.shorttutorials.com/control-panel/change-file-permissions.html  
+https://www.shorttutorials.com/control-panel/change-file-permissions.html
+
 https://ticket.aruba.it/kb/a2103/change-folder-permissions-by-using-chmod-or-scripts.aspx?translation-detect=false
+
+https://ticket.aruba.it/kb/a155/variazione-permessi-delle-cartelle-tramite-chmod-o-script.aspx
+
 
 For OS X and GNU/Linux systems, this can be achieved as follows:  
     Open a terminal (OS X » Applications » Utilities » Terminal)  

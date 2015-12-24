@@ -18,7 +18,7 @@ Install the pageRetrievalCounterPHP files in some folder.
 
 Edit a PHP file (e.g., index.php); copy and paste the following:  
 <span>  
-    Web pageRetrievalCounter:  
+    «Project4Dimensions pageRetrievalCounter»  
     <?php  
     $file = "pageRetrievalCounterPHP.num";  
         $current = file_get_contents($file);  

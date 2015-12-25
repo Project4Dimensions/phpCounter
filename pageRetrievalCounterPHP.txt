@@ -1,6 +1,6 @@
 # pageRetrievalCounterPHP
 
-A brief PHP script to count web page retrieval instances
+A short PHP script to count web page retrieval instances
 
 Author and compiler: Project4Dimensions
 

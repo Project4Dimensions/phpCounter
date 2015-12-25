@@ -1,4 +1,3 @@
-
 # pageRetrievalCounterPHP
 
 Uno script PHP breve per contare i casi di richiamo di pagine web
@@ -62,31 +61,31 @@ Più informazione
 Vedere le seguenti pagine del sito PHP:
 
 http://php.net/manual/en/function.file-get-contents.php  
-    Example:  
+    Esempio:  
     $file = file_get_contents("file.txt");  
 
 http://php.net/manual/en/function.intval.php  
-    Example:  
+    Esempio:  
     echo intval('042'); // 42  
 
 http://php.net/manual/en/language.operators.increment.php  
     ++$a  Pre-increments $a by one, then returns $a  
-    Example:  
+    Esempio:  
     $a = 5;  
     echo "Should be 6: " . ++$a;
 
 http://php.net/manual/en/function.file-put-contents.php  
     This is identical to successively calling fopen(), fwrite() and fclose()  
-    Example:  
+    Esempio:  
     file_put_contents("file.txt", "Some text", LOCK_EX);  
 
 http://php.net/manual/en/function.getcwd.php  
     Returns a path like /var/www/http/some/directory  
-    Example:  
+    Esempio:  
     echo getcwd();  
 
 http://php.net/manual/en/function.is-writable.php  
-    Example:  
+    Esempio:  
     if (is_writable('file.txt')) {  
         echo 'writable';  
     } else {  
@@ -94,9 +93,9 @@ http://php.net/manual/en/function.is-writable.php
     }
 
 http://php.net/manual/en/function.chmod.php  
-    Example:  
+    Esempio:  
     chmod("/somedir/somefile", 0777);  
 
 http://php.net/manual/en/function.mkdir.php  
-    Example:  
+    Esempio:  
     mkdir("path/somedir");  // mode is 0777 by default  

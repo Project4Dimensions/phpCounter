@@ -12,7 +12,7 @@ pageRetrievalCounterPHP files:
 
   pageRetrievalCounterPHP.num (stores incremental integer as plain text)  
   pageRetrievalCounterPHP.php (PHP script)  
-  pageRetrievalCounterPHP.txt (short manual)
+  pageRetrievalCounterPHP.txt (brief manual)
 
 Install the pageRetrievalCounterPHP files in some folder.
 
@@ -32,9 +32,9 @@ Edit a PHP file (e.g., index.php); copy and paste the following:
 
 pageRetrievalCounterPHP.num needs read and write permissions.
 
-FTP clients like FileZilla can change permissions on the web server.
+FTP clients like FileZilla can change permissions on the web server, but some web hosting companies may not allow this.
 
-Many hosting companies have control panels to do this (see links below).
+Nevertheless, many hosting companies have control panels to do this (see links below).
 
 https://www.shorttutorials.com/control-panel/change-file-permissions.html
 

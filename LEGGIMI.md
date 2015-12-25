@@ -30,11 +30,11 @@ Modificare un file PHP (ad esempio, index.php); copiare e incollare il seguente:
     ?>  
 </span>
 
-Il file pageRetrievalCounterPHP.num ba bisogno di autorizzazioni per leggere e scrivere.
+Il file pageRetrievalCounterPHP.num ha bisogno di autorizzazioni per leggere e scrivere.
 
-Client FTP come FileZilla possono modificare le autorizzazioni sul server web, ma  imprese di web hosting potrebbe non permettere questo.
+Client FTP come FileZilla possono modificare le autorizzazioni sul server web, ma alcune aziende di web hosting potrebbe non permettere questo.
 
-Tuttavia, tali società di web hosting probabilmente hanno pannelli di controllo per fare questo (vedi link sotto).
+Tuttavia, tali aziende di web hosting probabilmente hanno pannelli di controllo per fare questo (vedi link sotto).
 
 https://www.shorttutorials.com/control-panel/change-file-permissions.html
 
@@ -72,30 +72,30 @@ http://php.net/manual/en/language.operators.increment.php
     ++$a  Pre-increments $a by one, then returns $a  
     Esempio:  
     $a = 5;  
-    echo "Should be 6: " . ++$a;
+    echo "Dovrebbe essere 6: " . ++$a;
 
 http://php.net/manual/en/function.file-put-contents.php  
-    This is identical to successively calling fopen(), fwrite() and fclose()  
+    Questo è identico a chiamare in successione fopen(), fwrite() e fclose()  
     Esempio:  
-    file_put_contents("file.txt", "Some text", LOCK_EX);  
+    file_put_contents("file.txt", "Alcuni testi", LOCK_EX);  
 
 http://php.net/manual/en/function.getcwd.php  
-    Returns a path like /var/www/http/some/directory  
+    Restituirà una percorso come /var/www/http/qualche/cartella/  
     Esempio:  
     echo getcwd();  
 
 http://php.net/manual/en/function.is-writable.php  
     Esempio:  
     if (is_writable('file.txt')) {  
-        echo 'writable';  
+        echo 'scrivibile';  
     } else {  
-        echo 'not writable';  
+        echo 'non scrivibile';  
     }
 
 http://php.net/manual/en/function.chmod.php  
     Esempio:  
-    chmod("/somedir/somefile", 0777);  
+    chmod("/qualche_cartella/qualche_file", 0777);  
 
 http://php.net/manual/en/function.mkdir.php  
     Esempio:  
-    mkdir("path/somedir");  // mode is 0777 by default  
+    mkdir("percorso/qualche_cartella");  // la modalità predefinito è 0777

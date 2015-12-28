@@ -1,13 +1,13 @@
 # pageRetrievalCounterPHP
 
-Um pequeno programa de PHP para contar casos de acesso a uma página web  
+Um pequeno programa de PHP para contar o número de acessos a uma página web  
 Autor e compilador: Project4Dimensions
 
-## Porque foi desenvolvido o algoritmo? pageRetrievalCounterPHP?
+## Porque foi desenvolvido o pageRetrievalCounterPHP?
 
 O objetivo do pageRetrievalCounterPHP é fornecer explicações e referências claras em várias línguas, a fim de melhorar a utilidade do algoritmo PHP.
 
-## Como usar o pageRetrievalCounterPHP.php
+## Como usar o pageRetrievalCounterPHP
 
 Os ficheiros essenciais (do tipo texto simples) do pageRetrievalCounterPHP:  
 ```
@@ -34,12 +34,12 @@ Editar um ficheiro PHP (por exemplo, index.php); copie e cole o seguinte:
 
 O ficheiro, “pageRetrievalCounterPHP.num”, requer permissões de leitura e escrita.
 
-Os clientes de FTP, como FileZilla, pode alterar as permissões no servidor da web, mas algumas empresas de hospedagem na web pode não permitir isso. No entanto, muitas empresas de hospedagem na web têm painéis de controle para fazer isso (consulte os links abaixo).
+Os clientes de FTP, como FileZilla, podem alterar as permissões no servidor da web, mas algumas empresas de hospedagem na web podem não permitir isto. No entanto, muitas empresas de hospedagem na web têm painéis de controle para fazer isto (consulte os links abaixo).
 
 https://www.shorttutorials.com/control-panel/change-file-permissions.html  
 https://ticket.aruba.it/kb/a155/variazione-permessi-delle-cartelle-tramite-chmod-o-script.aspx  
 
-Para sistemas do Mac OS X e GNU / Linux, isto pode ser conseguido da seguinte forma:  
+Para sistemas do Mac OS X e GNU / Linux, isto pode ser feito da seguinte forma:  
 Abra um terminal (Mac OS X » Aplicativos » Utilidades » Terminal)  
 ```
 $ cd .  # mude para a pasta onde foi instalado pageRetrievalCounterPHP
@@ -68,7 +68,7 @@ http://php.net/manual/en/language.operators.increment.php
 
 http://php.net/manual/en/function.file-put-contents.php  
 `// exemplo:`  
-`// isso é idêntico a chamar sucessivamente fopen(), fwrite() e fclose()`  
+`// isto é idêntico a chamar sucessivamente fopen(), fwrite() e fclose()`  
 `file_put_contents("ficheiro.txt", "Algum texto", LOCK_EX);`
 
 http://php.net/manual/en/function.getcwd.php  
@@ -79,7 +79,7 @@ http://php.net/manual/en/function.getcwd.php
 http://php.net/manual/en/function.is-writable.php  
 `// exemplo:`  
 `if (is_writable('ficheiro.txt')) {`  
-`    echo 'E gravável';`  
+`    echo 'É gravável';`  
 `} else {`  
 `    echo 'Não é gravável';`  
 `}`

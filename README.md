@@ -8,7 +8,7 @@ Author and compiler: Project4Dimensions
 The aim of pageRetrievalCounterPHP is to provide clear explanations and references in several languages, so as to enhance the usefulness of the PHP algorithm.
 
 
-## How to use pageRetrievalCounterPHP.php
+## How to use pageRetrievalCounterPHP
 
 Essential pageRetrievalCounterPHP plain text files:
 ```

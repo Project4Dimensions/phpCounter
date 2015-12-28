@@ -7,7 +7,7 @@ Autore e compilatore: Project4Dimensions
 
 L'obiettivo del pageRetrievalCounterPHP è quello di fornire spiegazioni e riferimenti chiari in diverse lingue, in modo da migliorare l'utilità dell'algoritmo PHP.
 
-## Come usare pageRetrievalCounterPHP.php
+## Come usare pageRetrievalCounterPHP
 
 I file essenziali del pageRetrievalCounterPHP:
 ```

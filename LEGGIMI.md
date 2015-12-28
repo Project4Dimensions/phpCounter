@@ -1,6 +1,6 @@
 # pageRetrievalCounterPHP
 
-Una breve programma per contare i casi di accessi a una pagina web  
+Una breve programma per contare il numero di accessi a una pagina web  
 Autore e compilatore: Project4Dimensions
 
 ## Perché è stato sviluppato il pageRetrievalCounterPHP?
@@ -69,11 +69,11 @@ http://php.net/manual/en/language.operators.increment.php
 http://php.net/manual/en/function.file-put-contents.php  
 `// esempio:`  
 `// questo è identico a chiamare in successione fopen(), fwrite() and fclose()`  
-`file_put_contents("file.txt", "Some text", LOCK_EX);`
+`file_put_contents("file.txt", "Alcuni testi", LOCK_EX);`
 
 http://php.net/manual/en/function.getcwd.php  
 `// esempio:`  
-`// restituisce un percorso come questo: /var/www/http/qualche cartella`  
+`// restituisce un percorso come questo: /var/www/http/qualche/cartella`  
 `echo getcwd();`
 
 http://php.net/manual/en/function.is-writable.php  
@@ -86,8 +86,8 @@ http://php.net/manual/en/function.is-writable.php
 
 http://php.net/manual/en/function.chmod.php  
 `// esempio:`  
-`chmod("/qualche_cartella/qualche_file", 0777);`  
+`chmod("/percorso/qualche_cartella/qualche_file", 0777);`  
 
 http://php.net/manual/en/function.mkdir.php  
 `// esempio:`  
-`mkdir("path/somedir");  // la modalità di default è 0777`
+`mkdir("percorso/qualche_cartella");  // la modalità di default è 0777`

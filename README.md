@@ -68,7 +68,7 @@ http://php.net/manual/en/language.operators.increment.php
 `echo "Should be 6: " . ++$a;`
 
 http://php.net/manual/en/function.file-put-contents.php  
-'// example:`  
+`// example:`  
 `// this is identical to successively calling fopen(), fwrite() and fclose()`  
 `file_put_contents("file.txt", "Some text", LOCK_EX);`
 

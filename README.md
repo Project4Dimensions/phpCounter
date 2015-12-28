@@ -3,7 +3,7 @@
 A short PHP script to count web page retrieval instances  
 Author and compiler: Project4Dimensions
 
-## Why pageRetrievalCounterPHP
+## Why pageRetrievalCounterPHP?
 
 The aim of pageRetrievalCounterPHP is to provide clear explanations and references in several languages, so as to enhance the usefulness of the PHP algorithm.
 

@@ -7,5 +7,7 @@ $file = "pageRetrievalCounterPHP.num";
     file_put_contents($file, ++$current, LOCK_EX);
     echo file_get_contents($file);
 
-// How to use pageRetrievalCounterPHP.php: see pageRetrievalCounterPHP.txt
+// How to use pageRetrievalCounterPHP: see README.md
+// Come usare pageRetrievalCounterPHP: vedere LEGGIMI.md
+// Como usar o pageRetrievalCounterPHP: consulte LEIAME.md
 ?>

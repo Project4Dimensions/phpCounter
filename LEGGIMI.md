@@ -86,7 +86,7 @@ http://php.net/manual/en/function.is-writable.php
 
 http://php.net/manual/en/function.chmod.php  
 `// esempio:`  
-`chmod("/percorso/qualche_cartella/qualche_file", 0777);`  
+`chmod("/qualche_cartella/qualche_file", 0777);`  
 
 http://php.net/manual/en/function.mkdir.php  
 `// esempio:`  

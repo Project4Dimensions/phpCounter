@@ -24,7 +24,7 @@ https://ticket.aruba.it/kb/a2103/change-folder-permissions-by-using-chmod-or-scr
 
 ## Web pages using pageRetrievalCounter
 
-http://www.ccsp.it/web/santuarios2016/test.php
+http://www.msabreu.utad.pt/en/index.php
 
 ## The script explained
 
